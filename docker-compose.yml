@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  web:
+    image: my-web-app:latest
+    ports:
+      - "8080:80"
